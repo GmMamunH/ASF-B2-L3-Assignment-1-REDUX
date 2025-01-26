@@ -13,11 +13,9 @@ const likeDislikeSlices = createSlice({
     incrementDislike(state) {
       state.dislikes++;
     },
-
   },
 });
 
-export const { incrementLike, incrementDislike} =
-  likeDislikeSlices.actions;
+export const { incrementLike, incrementDislike } = likeDislikeSlices.actions;
 
 export default likeDislikeSlices.reducer;
